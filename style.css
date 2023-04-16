@@ -2,12 +2,16 @@
 
 body{
     background-image: url("imagens/fundo.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+    
 }
 header{
     background-color: rgb(253, 186, 0);
     text-align: center;
 }
-.principal{
+.container{
     box-shadow: 15px 15px 15px black;
     display: flex;
     flex-direction: row;
@@ -19,18 +23,23 @@ p{
     color: rgb(255, 255, 255);
     font-weight: bolder;
 }
-.subtitulo{
+.container .subtitulo{
     background-color:rgb(253, 186, 0) ;
     width: 200px;
     border-radius: 5px;
+    text-align: center;
     
 }
-.resumo{
+.resumo {
     background-color: rgba(255, 255, 255, 0.432);
     text-align: center ;
     width: 300px;
     padding-left: 5px;
     border-radius: 3px;
+}
+{
+    color: rgb(0, 0, 0);
+    text-indent: 10px;
 }
 
 .imagens{
